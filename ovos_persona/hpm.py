@@ -33,7 +33,7 @@ class PersonaProtocol(AgentProtocol):
                     "ovos-solver-openai-plugin": {
                         "api_url": "https://llama.smartgic.io/v1",
                         "key": "sk-xxxx",
-                        "persona": "helpful, creative, clever, and very friendly."
+                        "system_prompt": "helpful, creative, clever, and very friendly."
                     }
                 }
                 name = persona.get("name")
